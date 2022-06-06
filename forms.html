@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+        <script src="https://kit.fontawesome.com/9582b539f2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Alnaseej basics</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="buttons.html">buttons</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="forms.html">forms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tables.html">tables & PopUp</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="body">
+                <h5>basic form</h5>
+                <p>Add class "form-floating" to div of input and label</p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 ">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">رقم العميل</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">اٍسم العميل</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">جوال العميل</label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <button class="btn btn-secondary">بحث العملاء</button>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="date" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword"> تاريخ أمر البيع</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="date" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword"> تاريخ التسليم </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword"> رقم أمر البيع</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">   قيمة المستعجل</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">  الدفعة المقدمة</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                  <option selected> </option>
+                                  <option value="1">نقدي</option>
+                                  <option value="2">فيزا</option>
+                                  <option value="3">ماستر</option>
+                                  <option value="3">الدفع النقدي</option>
+                                </select>
+                                <label for="floatingSelect">طريقة الدفع</label>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">   رقم الفاتورة</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">  تاريخ الفاتورة</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                    <option selected> </option>
+                                    <option value="1">محمد</option>
+                                    <option value="2">احمد</option>
+                                    <option value="3">محمود</option>
+                                    <option value="3">سمير</option>
+                                </select>
+                                <label for="floatingSelect"> البائع</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword"> الاٍجمالي</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword"> نسبة الخصم</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword"> قيمة الخصم</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">  الاٍجمالي بعد الخصم</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword"> نسبة الضريبة</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword"> قيمة الضريبة</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">  الاٍجمالي بعد الضريبة</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                                <label for="floatingPassword">  المتبقي</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <h5>Input form</h5>
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                    <label for="floatingPassword"> رقم  </label>
+                </div>
+                <p>to modify the size of form --> put div in grid ex col-6 or col-3</p>
+
+                <div class="col-3">
+                    <div class="form-floating">
+                        <input type="number" class="form-control" id="floatingPassword" placeholder="رقم العميل">
+                        <label for="floatingPassword"> رقم  </label>
+                    </div>
+                </div>
+
+                <h5>Select form with class "form-select"</h5>
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected> </option>
+                      <option value="1">نقدي</option>
+                      <option value="2">فيزا</option>
+                      <option value="3">ماستر</option>
+                      <option value="3">الدفع النقدي</option>
+                    </select>
+                    <label for="floatingSelect">طريقة الدفع</label>
+                  </div>
+                  <h5>Checkbox form</h5>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                       checkbox
+                    </label>
+                  </div>
+                  <h5>Radio check</h5>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      radio check
+                    </label>
+                  </div>
+            </div>  
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    </body>
+</html>

@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #36aeb4;
+    --secondary-color: #36aeb447;
+    --font-color: #fff;
+    --bg-color: #052727;
+    --hover-color: #031e1e;
+    --gradient-color:linear-gradient(90deg, #031e1e 0%, #052727 23%, #36aeb4 100%);
+
+}
+/***** button *********/
+a.btn{
+    background-color: var(--hover-color);
+    color: #fff;
+    font-weight: 700;
+  }
+  .img-xs{
+    width:20px;
+    height:20px
+  }
+  /***** forms******/
+.form-floating{
+    margin:5px 0;
+    height: 55px;
+  }
+   .form-floating input,
+  .form-floating select{
+    background-color: #f8f8f8;
+  }
+  .form-floating>label{
+    font-size: 14px;
+    color:#343a40
+  }
